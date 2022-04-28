@@ -1,0 +1,82 @@
+#main{
+  background-color : #F9F8AB;
+  font-family: sans-serif;
+}
+header{
+  font-size: 150%;
+  background-color: #E4C308;
+  border-bottom: solid 3px #A70909;
+  padding: 0% 0% 0% 0%;
+}
+#title{
+  font-size: 150%;
+  background-color: #E4C308;
+  padding: 0% 0% 0% 0%;;
+  display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+  h1{
+     padding: 1% 2% 1% 2%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+#title-bis{
+  color: #920C6E;
+  font-family: Lobster;
+  font-size: 120%;
+}
+
+#image-logo {
+  height: 8%;
+	width: 8%;
+	border-radius: 10px;
+  text-align: right;
+  padding: 2% 0% 0% 10%;
+}
+#img-div{
+  background-color : #FFFFFF;
+  padding: 1% 10% 1% 10%;
+  display: flex;
+	justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+#image{
+  max-width: 100%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+#img-caption{
+  font-size: 100%;
+  font-family: system-ui;
+  font-style: italic;
+  text-align: center;
+}
+#tribute-info{
+  max-width: 55%;
+  color: #F44C0A;
+  margin : auto;
+}
+
+#tribute-info-points{
+  color: #000000;
+  text-align: left;
+}
+footer{
+  padding: 1% 2% 1% 2%;
+  border-top: solid 3px #A70909;
+  background-color: #E4C308;
+  font-size: 120%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #tribute-info{
+    max-width: 95%;
+  }
+  #img-div{
+    padding: 1% 2% 1% 2%;
+  }
+}
